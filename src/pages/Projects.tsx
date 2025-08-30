@@ -7,64 +7,37 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A modern e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+      title: "AdventureGame",
+      description:
+        "A terminal based adventure game made with dart, it's made to showcase my OOP skills and my passion in Gamification",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Docker"],
+      technologies: ["Flutter", "Makefile", "CI/CD", "Docker"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/ecommerce",
-      featured: true
+      githubUrl: "https://gitlab.com/ThaboTheDev/AdventureGame",
+      featured: true,
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and advanced filtering options.",
+      title: "Manga Domain",
+      description:
+        "A fullstack application for manga lover, that uses MangaDex API for a robust manga library",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Socket.io", "Tailwind"],
+      technologies: ["Flutter", "MangaDex API"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/taskapp",
-      featured: true
+      githubUrl: "https://github.com/Dynasty-Ventures-Consortium/manga_domain",
+      featured: true,
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "An interactive weather dashboard with location-based forecasts, historical data visualization, and responsive design.",
+      title: "Java Simple TCP Chat Room",
+      description:
+        "A Terminal based chat room, with socket programming, that allow user to join chat rooms and have conversations.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "D3.js", "Express", "MongoDB"],
+      technologies: ["Java", "Maven", "Sockets"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/weather",
-      featured: false
+      githubUrl: "https://gitlab.com/ThaboTheDev/java_simple_tcp_chat_room",
+      featured: false,
     },
-    {
-      id: 4,
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics platform for social media performance tracking with custom dashboards and automated reporting.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Vue.js", "Python", "Django", "Redis", "Chart.js"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/analytics",
-      featured: false
-    },
-    {
-      id: 5,
-      title: "Learning Management System",
-      description: "An educational platform with course creation tools, student progress tracking, and interactive assignments.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "GraphQL", "Node.js", "MongoDB", "AWS"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/lms",
-      featured: false
-    },
-    {
-      id: 6,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with modern technologies, featuring dark mode, smooth animations, and SEO optimization.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example/portfolio",
-      featured: false
-    }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
@@ -80,7 +53,7 @@ export default function Projects() {
               My Projects
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A collection of projects that showcase my skills in web development, 
+              A collection of projects that showcase my skills in Mobile and Frontend Developement, 
               from concept to deployment.
             </p>
           </div>

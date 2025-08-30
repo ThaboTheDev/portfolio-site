@@ -5,22 +5,17 @@ export function Footer() {
   const socialLinks = [
     {
       name: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/thabothedev",
       icon: Github,
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/thabo-mlilo-9678a1369",
       icon: Linkedin,
     },
     {
-      name: "Twitter",
-      href: "https://twitter.com",
-      icon: Twitter,
-    },
-    {
       name: "Email",
-      href: "mailto:hello@example.com",
+      href: "mailto:thabothedev@gmail.com",
       icon: Mail,
     },
   ];

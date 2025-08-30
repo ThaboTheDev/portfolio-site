@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -44,19 +45,19 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@johndoe.dev",
-      href: "mailto:hello@johndoe.dev"
+      value: "thabothedev@gmail.com",
+      href: "mailto:thabothedev@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+27 68 107 5378",
+      href: "#"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Johannesburg, Gauteng",
       href: "#"
     }
   ];
@@ -65,21 +66,15 @@ export default function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/johndoe",
-      username: "@johndoe"
+      href: "https://github.com/thabothedev",
+      username: "@thabothedev",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/johndoe",
-      username: "John Doe"
+      href: "https://www.linkedin.com/in/thabo-mlilo-9678a1369",
+      username: "Thabo Mlilo",
     },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com/johndoe",
-      username: "@johndoe"
-    }
   ];
 
   return (

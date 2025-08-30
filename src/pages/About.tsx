@@ -5,33 +5,25 @@ import { Download, MapPin, Calendar } from "lucide-react";
 
 export default function About() {
   const skills = [
-    "React", "TypeScript", "Node.js", "Next.js", "Python", "PostgreSQL",
-    "MongoDB", "AWS", "Docker", "Kubernetes", "GraphQL", "REST APIs",
-    "Tailwind CSS", "Material-UI", "Figma", "Git", "Jest", "Cypress"
+    "Python", "SQLite", "Docker", "Material-UI", "Figma", "Git",
+    "Flutter", "Dart", "Java", "Junit", "Firebase", "Flame", "Socket Programming", "Sales"
   ];
 
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Innovators Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: "Leading development of scalable web applications, mentoring junior developers, and architecting cloud-native solutions."
+      title: "Mobile & Frontend Developer",
+      company: "LX Nexus",
+      location: "Johannesburg, Gauteng",
+      period: "2025 - Present",
+      description: "Leading development of the modile and desktop applications for Lexi Drift AI and, creating the Tech-Stack for Drift."
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Ventures",
-      location: "New York, NY",
-      period: "2020 - 2022",
-      description: "Developed responsive web applications using React and TypeScript, improving user engagement by 40%."
+      title: "Sales Agent",
+      company: "Ak Mobile",
+      location: "Johannesburg, Gauteng",
+      period: "2023 - 2023",
+      description: "Sold Phones and Laptops, alongside doing lead warming for 1 Life Insurance"
     },
-    {
-      title: "Junior Developer",
-      company: "StartUp Solutions",
-      location: "Remote",
-      period: "2019 - 2020",
-      description: "Built and maintained various client projects, gaining experience in full-stack development."
-    }
   ];
 
   return (
@@ -67,20 +59,20 @@ export default function About() {
               {/* Bio */}
               <div className="animate-slide-up">
                 <h2 className="text-2xl font-bold text-foreground mb-4">
-                  Hello! I'm John Doe
+                  Hello! I'm Thabo Mlilo
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    I'm a passionate full-stack developer with over 5 years of experience 
-                    creating web applications that solve real-world problems. My journey 
-                    started with a Computer Science degree, but my true education comes 
+                    I'm a passionate Junior developer with less tnan 1 year of experience 
+                    creating Mobile applications and software that solve problems. My journey 
+                    started with a Software Engeneering Diploma, but my true education comes 
                     from constantly learning and adapting to new technologies.
                   </p>
                   <p>
                     I believe in writing clean, maintainable code and creating user 
                     experiences that are both beautiful and functional. When I'm not 
                     coding, you can find me exploring new technologies, contributing to 
-                    open source projects, or hiking in the mountains.
+                    open source projects, in the gym, or serving at TRSH.
                   </p>
                   <p>
                     I'm always excited to work on challenging projects and collaborate 
@@ -91,7 +83,7 @@ export default function About() {
                 <div className="flex items-center gap-4 mt-6 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
                     <MapPin className="w-4 h-4" />
-                    <span>San Francisco, CA</span>
+                    <span>Johannesburg, Gauteng</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />

@@ -6,100 +6,85 @@ import { Download, MapPin, Calendar, Award, GraduationCap, Briefcase } from "luc
 export default function Resume() {
   const workExperience = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Innovators Inc.",
-      location: "San Francisco, CA",
-      period: "Jan 2022 - Present",
+      title: "Mobile & Frontend Developer",
+      company: "LX Nexus",
+      location: "Johannesburg, Gauteng",
+      period: "July 2025 - Present",
       description: [
-        "Led development of scalable web applications serving 100K+ users",
-        "Mentored team of 5 junior developers and improved code quality by 40%",
-        "Architected microservices infrastructure reducing deployment time by 60%",
-        "Implemented CI/CD pipelines and automated testing strategies"
+        "Leading development of the modile and desktop applications for Lexi Drift AI",
+        "Creating the Tech-Stack for Drift.",
+        "Creating the UI for the Lexi Drift.",
+        "Implemented CI/CD pipelines and automated testing strategies",
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
+      technologies: ["Flutter", "Python", "Docker", "REST API"],
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Ventures",
-      location: "New York, NY",
-      period: "Mar 2020 - Dec 2021",
+      title: "Sales Agent",
+      company: "AK Mobile",
+      location: "Johannesburg, Gauteng",
+      period: "jan 2023 - Aug 2023",
       description: [
-        "Developed responsive web applications improving user engagement by 40%",
-        "Collaborated with UX team to implement pixel-perfect designs",
-        "Optimized application performance reducing load times by 50%",
-        "Built reusable component library adopted across 3 product teams"
+        "Sold Mobile phones and Laptops via Telephone.",
+        "Lead warming for 1 Life Insurance.",
       ],
-      technologies: ["React", "TypeScript", "GraphQL", "Styled Components"]
+      technologies: ["Communication", "Sales", "Customer Support"],
     },
-    {
-      title: "Junior Developer",
-      company: "StartUp Solutions",
-      location: "Remote",
-      period: "Jun 2019 - Feb 2020",
-      description: [
-        "Built and maintained client projects using modern web technologies",
-        "Participated in agile development processes and code reviews",
-        "Implemented RESTful APIs and database integrations",
-        "Gained experience in full-stack development and DevOps practices"
-      ],
-      technologies: ["JavaScript", "Python", "PostgreSQL", "Git"]
-    }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
-      location: "California, USA",
-      period: "2015 - 2019",
-      gpa: "3.8/4.0",
+      degree: "Diploma of Software Engineering",
+      institution: "WeThinkCode",
+      location: "Rosebank, Gauteng",
+      period: "2024 - Present",
+      gpa: "Incompete",
       achievements: [
-        "Graduated Magna Cum Laude",
-        "Dean's List for 6 semesters",
-        "Computer Science Student of the Year 2019"
+        "Peer Mentor for fellow students.",
+        "Achieved 91.717% for 1st year.",
+        "In final year"
       ]
     },
     {
-      degree: "Full-Stack Web Development Bootcamp",
-      institution: "Code Academy Pro",
-      location: "Online",
-      period: "2019",
-      gpa: "Top 5%",
+      degree: "National Senior Certificate",
+      institution: "Phoenix College of Johannesburg",
+      location: "Johannesburg, Gauteng",
+      period: "2022 - 2023",
+      gpa: "None",
       achievements: [
-        "Completed 600+ hours of intensive training",
-        "Built 15+ projects including capstone project",
-        "Received certification in Modern Web Development"
+        "Completed Matric.",
+        "Built a colunteering app for my IT project.",
+        "Received certification of completion."
       ]
     }
   ];
 
   const certifications = [
     {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      id: "AWS-CSA-001"
+      name: "Certificate in Full Stack Developement",
+      issuer: "FNB App Academy",
+      date: "2025",
+      id: "AOTYAA072025"
     },
-    {
-      name: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      date: "2022",
-      id: "GCP-PD-002"
-    },
-    {
-      name: "Certified Kubernetes Administrator",
-      issuer: "CNCF",
-      date: "2022",
-      id: "CKA-003"
-    }
+    // {
+    //   name: "Google Cloud Professional Developer",
+    //   issuer: "Google Cloud",
+    //   date: "2022",
+    //   id: "GCP-PD-002"
+    // },
+    // {
+    //   name: "Certified Kubernetes Administrator",
+    //   issuer: "CNCF",
+    //   date: "2022",
+    //   id: "CKA-003"
+    // }
   ];
 
   const skills = {
-    "Frontend": ["React", "Vue.js", "TypeScript", "Next.js", "Tailwind CSS", "Material-UI"],
-    "Backend": ["Node.js", "Python", "Express", "Django", "GraphQL", "REST APIs"],
-    "Database": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Elasticsearch"],
-    "DevOps": ["AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Terraform"],
-    "Tools": ["Git", "Jest", "Cypress", "Figma", "Postman", "Jira"]
+    "Frontend": ["Flutter", "HTML/CSS", "Material-UI"],
+    "Backend": ["Python", "REST APIs", "Dart", "Java"],
+    "Database": ["MySQL", "Access DB", "SQLite"],
+    "DevOps": ["Docker", "CI/CD", "MakeFile"],
+    "Tools": ["Git", "Maven", "Bash"]
   };
 
   return (
@@ -115,7 +100,7 @@ export default function Resume() {
               Professional experience, education, and qualifications
             </p>
             <Button size="lg" asChild>
-              <a href="/resume.pdf" download>
+              <a href="/Thabo_Mlilo_Resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
                 Download PDF
               </a>
