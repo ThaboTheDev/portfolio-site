@@ -37,7 +37,8 @@ export default function About() {
                 About Me
               </h1>
               <p className="text-xl text-muted-foreground">
-                Passionate developer with a love for creating exceptional digital experiences
+                Passionate developer with a love for creating exceptional
+                digital experiences
               </p>
             </div>
 
@@ -47,10 +48,7 @@ export default function About() {
                 <div className="relative">
                   <div className="w-full aspect-square max-w-md mx-auto bg-gradient-to-br from-portfolio-accent/20 to-portfolio-accent/5 rounded-2xl border border-border flex items-center justify-center">
                     <div className="text-center text-muted-foreground">
-                      <div className="w-24 h-24 mx-auto mb-4 bg-portfolio-accent/10 rounded-full flex items-center justify-center">
-                        <span className="text-3xl">👨‍💻</span>
-                      </div>
-                      <p>Profile Photo</p>
+                      <img src="/profile.jpeg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -63,20 +61,23 @@ export default function About() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    I'm a passionate Junior developer with less tnan 1 year of experience 
-                    creating Mobile applications and software that solve problems. My journey 
-                    started with a Software Engeneering Diploma, but my true education comes 
-                    from constantly learning and adapting to new technologies.
+                    I'm a passionate Junior developer with less tnan 1 year of
+                    experience creating Mobile applications and software that
+                    solve problems. My journey started with a Software
+                    Engeneering Diploma, but my true education comes from
+                    constantly learning and adapting to new technologies.
                   </p>
                   <p>
-                    I believe in writing clean, maintainable code and creating user 
-                    experiences that are both beautiful and functional. When I'm not 
-                    coding, you can find me exploring new technologies, contributing to 
-                    open source projects, in the gym, or serving at TRSH.
+                    I believe in writing clean, maintainable code and creating
+                    user experiences that are both beautiful and functional.
+                    When I'm not coding, you can find me exploring new
+                    technologies, contributing to open source projects, in the
+                    gym, or serving at TRSH.
                   </p>
                   <p>
-                    I'm always excited to work on challenging projects and collaborate 
-                    with teams that share my passion for creating exceptional digital products.
+                    I'm always excited to work on challenging projects and
+                    collaborate with teams that share my passion for creating
+                    exceptional digital products.
                   </p>
                 </div>
 
@@ -92,7 +93,7 @@ export default function About() {
                 </div>
 
                 <Button className="mt-6" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/Thabo_Mlilo_Resume.pdf" download>
                     <Download className="w-4 h-4 mr-2" />
                     Download Resume
                   </a>
@@ -148,7 +149,10 @@ export default function About() {
 
             <div className="space-y-8 animate-fade-in">
               {experiences.map((exp, index) => (
-                <Card key={index} className="border border-border hover:shadow-lg transition-shadow">
+                <Card
+                  key={index}
+                  className="border border-border hover:shadow-lg transition-shadow"
+                >
                   <CardContent className="p-6">
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
                       <div>
@@ -170,9 +174,7 @@ export default function About() {
                         </div>
                       </div>
                     </div>
-                    <p className="text-muted-foreground">
-                      {exp.description}
-                    </p>
+                    <p className="text-muted-foreground">{exp.description}</p>
                   </CardContent>
                 </Card>
               ))}
